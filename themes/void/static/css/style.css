@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #c8c8c8;
+  --dim: #555;
+  --accent: #e0e0e0;
+  --hover: #fff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 15px;
+  line-height: 1.1;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15vh 2rem 10vh;
+}
+
+/* --- HOME --- */
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  color: var(--fg);
+  text-decoration: none;
+  padding: 0.1rem 0;
+  font-size: 0.9rem;
+  transition: color 0.15s ease;
+  line-height: 1.2;
+}
+
+nav a:hover {
+  color: var(--hover);
+}
+
+.date {
+  color: var(--dim);
+}
+
+/* --- ARTICLE --- */
+
+.back {
+  color: var(--dim);
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  transition: color 0.15s ease;
+}
+
+.back:hover {
+  color: var(--hover);
+}
+
+article h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1.15;
+  margin-bottom: 0.1rem;
+}
+
+article time {
+  color: var(--dim);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.content {
+  margin-top: 0.6rem;
+}
+
+.content p {
+  margin-bottom: 0;
+}
+
+.content h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0.4rem 0 0;
+}
+
+.content h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0.3rem 0 0;
+}
+
+.content a {
+  color: var(--hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--dim);
+  transition: text-decoration-color 0.15s ease;
+}
+
+.content a:hover {
+  text-decoration-color: var(--hover);
+}
+
+.content code {
+  background: #141414;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+.content pre {
+  background: #111;
+  border: 1px solid #1a1a1a;
+  border-radius: 4px;
+  padding: 0.4rem;
+  overflow-x: auto;
+  margin: 0;
+}
+
+.content pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.85rem;
+  line-height: 1.1;
+}
+
+.content blockquote {
+  border-left: 2px solid #222;
+  padding-left: 1rem;
+  color: var(--dim);
+  margin: 0;
+}
+
+.content ul, .content ol {
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.content li {
+  margin: 0;
+}
+
+.content img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 10vh 1.5rem 8vh;
+  }
+
+  article h1 {
+    font-size: 1.2rem;
+  }
+}

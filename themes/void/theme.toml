@@ -1,0 +1,8 @@
+name = "void"
+license = "MIT"
+licenselink = ""
+description = "Ultra minimal dark blog theme"
+min_version = "0.112.0"
+
+[author]
+  name = "Cain"

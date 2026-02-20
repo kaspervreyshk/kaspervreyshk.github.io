@@ -1,0 +1,8 @@
+baseURL: "https://kaspervreyshk.github.io/"
+languageCode: "en-us"
+title: "Kasper Vreyshk"
+theme: "void"
+paginate: 100
+
+params:
+  subtitle: "Windows Internals Research"
