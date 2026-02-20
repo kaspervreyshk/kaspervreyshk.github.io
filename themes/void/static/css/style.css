@@ -18,18 +18,16 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: 'JetBrains Mono', monospace;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.1;
   -webkit-font-smoothing: antialiased;
 }
 
 main {
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 15vh 2rem 10vh;
 }
-
-/* --- HOME --- */
 
 nav {
   display: flex;
@@ -40,7 +38,7 @@ nav a {
   color: var(--fg);
   text-decoration: none;
   padding: 0.1rem 0;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   transition: color 0.15s ease;
   line-height: 1.2;
 }
@@ -53,12 +51,10 @@ nav a:hover {
   color: var(--dim);
 }
 
-/* --- ARTICLE --- */
-
 .back {
   color: var(--dim);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   display: inline-block;
   margin-bottom: 0.8rem;
   transition: color 0.15s ease;
@@ -69,7 +65,7 @@ nav a:hover {
 }
 
 article h1 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: var(--accent);
   line-height: 1.15;
@@ -78,7 +74,7 @@ article h1 {
 
 article time {
   color: var(--dim);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   letter-spacing: 0.05em;
 }
 
@@ -91,14 +87,14 @@ article time {
 }
 
 .content h2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--accent);
   margin: 0.4rem 0 0;
 }
 
 .content h3 {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--accent);
   margin: 0.3rem 0 0;
@@ -167,6 +163,6 @@ article time {
   }
 
   article h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
