@@ -12,3 +12,7 @@ There is a certain elegance to all of this once you sit with it long enough. Mos
 ![wonderland](/_images/wonderland.jpg)
 
 That is why this article exists. We are going down together. And like the rabbit hole, this one does not end. In ours, we will try to find a wall, somewhere deep enough to say we pushed as far as we could. I find the Alice analogy particularly fitting when it comes to this kind of research. The deeper you go, the less the surface world makes sense, and the more the strange things you discover feel like they were always the real ones. I will let you think about that. I promise it is worth thinking about.
+
+Do you know what silicon is. Element 14. Fourteen protons in the nucleus, fourteen electrons around it. A grey, hard, crystalline solid with a metallic luster. You will find it everywhere. In sand, in quartz, in rock. Silicon dioxide. SiO2. It makes up roughly 28 percent of the Earth's crust, second only to oxygen. In its pure form, it is a semiconductor. It does not conduct electricity well. But it does not block it either. It sits in between. And that property, that precise, quiet, in-between behavior, is what the entire chip industry is built on.
+
+![silicon-image](/_images/silicon-image.jpg)
