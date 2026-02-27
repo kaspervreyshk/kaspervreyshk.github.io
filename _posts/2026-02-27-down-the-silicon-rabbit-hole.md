@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Down the Silicon Rabbit Hole, Alice Was Right"
-date: 2027-02-27 17:44:00 +0200
+date: 2026-02-27 19:40:00 +0100
 categories: windows
 ---
 
