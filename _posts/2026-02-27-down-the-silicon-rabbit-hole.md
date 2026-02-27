@@ -9,6 +9,6 @@ Every security boundary in Windows exists because a transistor is either conduct
 
 There is a certain elegance to all of this once you sit with it long enough. Most people, especially young researchers, never stop to consider how much the hardware matters. They want to understand the internals of something as complex and fascinating as Windows, but they skip the foundation. You cannot truly understand an operating system until you understand what it runs on. Every abstraction hides a physical truth.
 
-![wonderland](/images/wonderland.jpg)
+![wonderland](/_images/wonderland.jpg)
 
 That is why this article exists. We are going down together. And like the rabbit hole, this one does not end. In ours, we will try to find a wall, somewhere deep enough to say we pushed as far as we could. I find the Alice analogy particularly fitting when it comes to this kind of research. The deeper you go, the less the surface world makes sense, and the more the strange things you discover feel like they were always the real ones. I will let you think about that. I promise it is worth thinking about.
