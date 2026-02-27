@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-My stories from reverse-engineering random things.
+I study what lives beneath the surface. The layers that most people agree to forget about, the ones between the silicon and the screen. I believe that understanding a system means understanding every layer of it. Not just the ones that were designed to be seen.
 
-If you want to reach out, DM me on Discord: @archie_uwu
+This blog is where I write about what I find on the way down.
